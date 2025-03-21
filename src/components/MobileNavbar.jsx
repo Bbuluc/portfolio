@@ -1,6 +1,6 @@
 export default function MobileNavbar({action}) {
   return (
-    <div className="absolute top-16 left-0 w-[50%] sm:hidden p-8">
+    <div className="absolute top-16 left-0 w-[50%] sm:hidden p-8 bg-[#000F14]">
       <ul className="pt-8">
           <li className="pb-8">
             <a

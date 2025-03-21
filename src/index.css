@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000F14;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

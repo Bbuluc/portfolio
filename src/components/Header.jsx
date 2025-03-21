@@ -29,7 +29,7 @@ export default function Header() {
   );
 
   return (
-    <header className="fixed top-0 left-0 w-full z-10">
+    <header className="fixed top-0 left-0 w-full z-10 bg-[#000F14]">
 
       <div className="h-12 flex justify-between items-center py-8 px-8 border-b-4 border-blue-200">
         <div>
