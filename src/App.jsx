@@ -1,8 +1,10 @@
+import Header from "./assets/components/Header"
+
 function App() {
 
   return (
     <>
-      <h1 className="text-2xl">test</h1>
+      <Header/>
     </>
   )
 }
