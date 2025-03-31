@@ -1,7 +1,8 @@
-import Aboutme from "./components/aboutme"
+import Aboutme from './components/Aboutme'
 import ContactForm from "./components/contactForm"
 import Header from "./components/Header"
 import Home from "./components/Home"
+import Projects from './components/Projects'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Home />
       <Aboutme/>
+      <Projects/>
       <ContactForm/>
     </>
   )

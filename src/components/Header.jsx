@@ -68,6 +68,14 @@ export default function Header() {
           </li>
           <li>
             <a
+              href="#projects"
+              className="relative text-blue-200 font-extrabold after:block after:h-1 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
               href="#contact"
               className="relative text-blue-200 font-extrabold after:block after:h-1 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
             >

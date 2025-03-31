@@ -1,11 +1,11 @@
-export default function MobileNavbar({action}) {
+export default function MobileNavbar({ action }) {
   return (
-    <div className="absolute top-16 left-0 w-[50%] sm:hidden p-8 bg-[#000F14]">
-      <ul className="pt-8">
+      <div className="absolute top-16 left-0 w-[50%] sm:hidden p-8 bg-[#000F14]/80">
+        <ul className="pt-8">
           <li className="pb-8">
             <a
               href="#home"
-              className=" text-blue-200 font-extrabold hover:text-blue-400 border-b-1 border-blue-400"
+              className=" text-blue-200 font-extrabold hover:text-blue-400 border-b-[1px] border-blue-400"
               onClick={action}
             >
               Home
@@ -14,22 +14,32 @@ export default function MobileNavbar({action}) {
           <li className="pb-8">
             <a
               href="#about"
-              className=" text-blue-200 font-extrabold hover:text-blue-400 border-b-1 border-blue-400"
+              className=" text-blue-200 font-extrabold hover:text-blue-400 border-b-[1px] border-blue-400"
               onClick={action}
             >
               About me
             </a>
           </li>
+          <li className="pb-8">
+            <a
+              href="#projects"
+              className=" text-blue-200 font-extrabold hover:text-blue-400 border-b-[1px] border-blue-400"
+              onClick={action}
+            >
+              Projects
+            </a>
+          </li>
           <li className="pb-16">
             <a
               href="#contact"
-              className="\ text-blue-200 font-extrabold hover:text-blue-400 border-b-1 border-blue-400"
+              className=" text-blue-200 font-extrabold hover:text-blue-400 border-b-[1px] border-blue-400"
               onClick={action}
             >
               Contact
             </a>
           </li>
         </ul>
-    </div>
-  )
+      </div>
+
+  );
 }
