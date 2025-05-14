@@ -14,9 +14,9 @@ export default function Aboutme() {
   return (
     <div
       id="about"
-      className="h-screen flex flex-col sm:flex-col justify-center items-center pt-16 sm:mt-0"
+      className="scroll-mt-50 sm:scroll-mt-80  flex flex-col sm:flex-col justify-center items-center mb-32 sm:mb-80"
     >
-      <div className="flex flex-col justify-center items-center pb-16 sm:pb-24">
+      <div className="flex flex-col justify-center items-center " >
         <h1 className="text-blue-400 text-xl lg:text-2xl font-extrabold p-4">
           Dokuz Eylul University
         </h1>
@@ -36,7 +36,7 @@ export default function Aboutme() {
         </p>
       </div>
 
-      <div className="w-full grid grid-cols-3 items-center justify-items-center sm:flex sm:flex-row sm:justify-center">
+      <div className="w-full grid grid-cols-3 items-center justify-items-center pt-10  sm:gap-1 sm:flex sm:flex-row sm:justify-center sm:pt-24">
         <div>
           <FaReact className="text-blue-500 w-[60px] h-[60px] mb-4" />
         </div>

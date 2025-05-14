@@ -37,7 +37,7 @@ export default function Header() {
             href="#home"
             className="text-2xl font-extrabold text-blue-400 cursor:pointer"
           >
-            Baran.<span>buluc</span>
+            Baran.<span>Buluc</span>
           </a>
         </div>
         <a
