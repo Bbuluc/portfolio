@@ -19,7 +19,7 @@ export default function Home() {
         experiences.
       </p>
       <p className="text-blue-200 px-10 sm:max-w-[600px] lg:max-w-[700px] lg:text-xl p-4">
-        Also I am currently improve myself on data science and Machine Learning.
+        Also I am currently improving myself on data science and Machine Learning.
       </p>
       <div className="flex gap-6 mt-8">
         <a
