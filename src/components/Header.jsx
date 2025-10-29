@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
-
+import logo from "/handwritten.jpg";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,13 +31,14 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-10 bg-[#000F14]">
 
-      <div className="h-12 flex justify-between items-center py-8 px-8 border-b-4 border-blue-200">
+      <div className="h-12 flex justify-between items-center py-8 px-4 border-b-4 border-blue-200">
         <div>
+          
           <a
             href="#home"
             className="text-2xl font-extrabold text-blue-400 cursor:pointer"
           >
-            Baran.<span>Buluc</span>
+            <img src={logo} alt="logo" className="h-10 w-auto"></img>
           </a>
         </div>
         <a
