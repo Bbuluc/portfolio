@@ -11,7 +11,7 @@ export default function Projects() {
       <ProjectItem
         image={TicImg}
         title="Titanic Survival Prediction"
-        description="A full-stack web app predicting Titanic survival using a Random Forest model optimized with Grid Search, powered by React, Tailwind CSS, and FastAPI. More technical details and setup instructions are available in the project’s README on GitHub."
+        description="A full-stack web application that predicts Titanic survival probability using a Random Forest model optimized with Grid Search. The frontend is built with React and Tailwind CSS and deployed on Vercel, while the FastAPI backend and ML model are hosted on Render. More technical details and setup instructions are available in the project’s README on GitHub."
         link="https://titanic-prediction-seven.vercel.app"
         github="https://github.com/Bbuluc/titanic-prediction"
         tech={["React", "Tailwind CSS", "FastAPI", "Python", "scikit-learn"]}
